@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 55px;
+    width: 98vw;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: rgb(247, 237, 102);
+    margin: 6px;
+}
+.cornerhead1 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boxcorner1 {
+    width: 43px;
+    height: 43px;
+    background-color: plum;
+    border-radius: 50%;
+    margin: 5px 10px 3px 0px;
+    border: 1px solid black;
+}
+.textcorner1 {
+    font-size: 18px;
+    font-weight: bold;
+    align-content: center;
+}
+.cornerhead2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+.boxcorner2 {
+    flex: auto;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    align-content: center;
+}
+.insboxcorner2 {
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    border-radius: 7%;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+}
+.parah1 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.eleparah1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.imgele1 {
+    width: 95%;
+    height: 55%;
+    border: 1px solid black;
+    margin: 15px;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    color: black;
+}
+.imgcontainer {
+    width: 98%;
+    height: 40%;
+    margin: 20px 15px 15px 15px;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.imgbox{
+    width: 20%;
+    height: 50%;
+    border: 1px solid black;
+    margin: 0px 20px 10px 10px;
+    text-align: center;
+    align-content: center;
+}
+.eleparah1_2 {
+    width: 50%;
+    height: 100%;
+}
+.parah2 {
+    height: 350px;
+    width: 100%;
+}
+.parah3 {
+    height: 100px;
+    width: 98vw;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 237, 102);
+}
+
+.typecontainer {
+    width: 240px;
+    height: 30px;
+    display: flex;
+    margin: 0px 15px 15px 15px;
+    gap: 15px;
+}
+.typecontainer2 {
+    width: 240px;
+    height: 30px;
+    display: flex;
+    margin: 0px 15px 15px 15px;
+    gap: 15px;
+}
+.typebox1 {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6%;
+    align-content: center;
+}
+.typebox3 {
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6%;
+    align-content: center;
+}
+
+.typebox2 {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6%;
+    align-content: center;
+    background-color: aqua;
+}
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+.typecontainer2 {
+    width: 240px;
+    height: 30px;
+    display: flex;
+    margin: 15px;
+    gap: 30px;
+}
+.eleparah2 {
+    margin: 10px;
+    border: 1px solid black;
+    height: 35%;
+    width: 98%;
+    box-sizing: border-box;
+}
+.tic1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tic2 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ticbox {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+.ticbox2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.ticinfo {
+    width: calc(100% - 69px);
+    height: 100%;
+    align-content: center;
+}
+.ticicon{
+    width: 39px;
+    height: 39px;
+    background-color: plum;
+    border-radius: 50%;
+    margin: 10px 10px 3px 15px;
+    border: 1px solid black;
+}
+.smallcontainer {
+    width: 230px;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px
+}
+.smallbox1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    border-radius: 8%;
+    font-size: 18px;
+}
+.smallbox2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(150, 145, 145, 0.5);
+    text-align: center;
+    align-content: center;
+    background-color: rgba(150, 145, 145, 0.5);
+    border-radius: 5%;
+    font-size: 18px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 237, 102);
+    margin: 6px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+@media (max-width: 576px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .cornerhead1, .cornerhead2 {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .boxcorner1 {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+    .textcorner1 {
+        font-size: 16px;
+    }
+    
+    .main {
+        width: 100vw;
+    }
+    
+    .parah1 {
+        flex-direction: column;
+        height: auto;
+    }
+    .eleparah1, .eleparah1_2 {
+        width: 100%;
+    }
+    .imgele1 {
+        width: 90%;
+        height: 50%;
+        margin: 10px auto;
+    }
+    .imgcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgbox {
+        width: 80%;
+        height: auto;
+    }
+
+    .parah3 {
+        flex-direction: column;
+        height: auto;
+    }
+    .typecontainer, .typecontainer2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .typebox1, .typebox2, .typebox3 {
+        width: 80%;
+    }
+    
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .info {
+        margin: 5px 0;
+    }
+}
