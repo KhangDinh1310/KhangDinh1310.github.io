@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 55px;
+    width: 98vw;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: rgb(247, 237, 102);
+    margin: 6px;
+}
+.main {
+    width: 100vw;
+    height: auto;
+}
+.content {
+    width: 96vw;
+    height: 1150px;
+    margin: 25px;
+}
+.cornerhead1 {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boxcorner1 {
+    width: 43px;
+    height: 43px;
+    background-color: plum;
+    border-radius: 50%;
+    margin: 5px 10px 3px 0px;
+    border: 1px solid black;
+}
+.textcorner1 {
+    font-size: 18px;
+    font-weight: bold;
+    align-content: center;
+}
+.cornerhead2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+.boxcorner2 {
+    flex: auto;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    align-content: center;
+}
+.insboxcorner2 {
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    border-radius: 7%;
+}
+.parah {
+    height: 100px;
+    width: 98vw;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 237, 102);
+}
+.contact {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 237, 102);
+    margin: 6px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.icon1 {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.boxcontainer1 {
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+    display: flex;
+}
+.elebox2 {
+    width: 50%;
+    height: 100%;
+}
+.elebox1 {
+    width: 50%;
+    height: 100%;
+}
+.elebox {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.infobox {
+    width: 90%;
+    height: 15%;
+    border: 1px solid black;
+    margin: 10px 0px 10px 10px;
+}
+.infobox2 {
+    width: 90%;
+    height: 22%;
+    border: 1px solid black;
+    margin: 10px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 40px;
+    height:  40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 15px;
+    background-color: plum;
+}
+.boxcontainer2 {
+    width: 100%;
+    height: 53%;
+}
+.insbox {
+    width: 100%;
+    height: 23%;
+    border: 1px solid black;
+    margin: 15px 10px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.cornermain1 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+}
+.cornermain2 {
+    height: 100%;
+    width: 15%;
+}
+.typebox1 {
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 6%;
+    align-content: center;
+}
+.typebox2 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6%;
+    align-content: center;
+}
+.typebox3 {
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(205, 230, 251);
+    border-radius: 6%;
+    align-content: center;
+    color: black;
+}
+.snipbox {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin-top: 15px;
+    gap: 15px
+}
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 50px 20px 20px 20px;
+}
+.image {
+    width: 30%;
+    height: 90%;
+    border: 1px solid black;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    align-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkmark {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #00897b; 
+    border-radius: 4px; 
+    position: relative;
+}
+
+.checkmark::after {
+    content: "✔";
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+    display: block;
+}
+
+.typecontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 15px;
+    gap: 15px;
+}
+.typebox {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 6%;
+    align-content: center;
+}
+@media (max-width: 576px) {
+    .header {
+        height: 50px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .cornerhead1 {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .boxcorner1 {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+    }
+
+    .cornerhead2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .insboxcorner2 {
+        width: 80px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .parah {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .boxcontainer1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .elebox1, .elebox2, .elebox {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+
+    .infobox, .infobox2 {
+        width: 95%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .boxcontainer2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .insbox {
+        flex-direction: column;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .cornermain1, .cornermain2 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .typebox1, .typebox2, .typebox3 {
+        width: 80%;
+        height: 35px;
+        font-size: 14px;
+        margin: 5px auto;
+    }
+
+    .snipbox {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .custom-checkbox {
+        width: 40px;
+        height: 40px;
+        margin: 20px auto;
+    }
+
+    .checkmark {
+        width: 20px;
+        height: 20px;
+    }
+
+    .image {
+        width: 90%;
+        height: auto;
+        font-size: 14px;
+        margin: 5px auto;
+    }
+
+    .typecontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .typebox {
+        width: 90%;
+        height: 40px;
+        font-size: 14px;
+        margin: 5px auto;
+    }
+}
